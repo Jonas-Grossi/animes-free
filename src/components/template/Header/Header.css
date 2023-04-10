@@ -1,0 +1,8 @@
+.header{
+    grid-area: header;
+
+    border:solid 4px;
+    margin:5px;
+}
+
+

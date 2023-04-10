@@ -1,0 +1,15 @@
+.App{
+
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 200px 120px 1fr 50px;
+  grid-template-columns:400px 1fr ;
+  grid-template-areas: 
+  "logo header"
+  "logo donate"
+  "mainContent mainContent"
+  "releases releases"
+  "footer footer";
+
+  
+}

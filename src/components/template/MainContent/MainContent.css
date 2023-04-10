@@ -1,0 +1,8 @@
+
+
+.mainContent{
+
+    grid-area: mainContent; 
+    border:solid 4px;
+    margin:5px;
+}

@@ -1,0 +1,6 @@
+.releases{
+
+    grid-area: releases; 
+    border:solid 4px;
+    margin:5px;
+}
