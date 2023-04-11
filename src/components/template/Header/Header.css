@@ -1,8 +1,17 @@
 .header{
     grid-area: header;
-
-    border:solid 4px;
-    margin:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+    
 }
+.header .menu  {
+  
+    padding: 20px;
+  
+
+}
+
 
 
