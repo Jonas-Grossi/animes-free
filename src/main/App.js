@@ -7,9 +7,10 @@ import Donate from '../components/template/Donate/Donate'
 import Releases from '../components/template/Releases/Releases'
 import Footer from '../components/template/Footer/Footer'
 
-
 function App() {
+  
   return (
+    
     <div className="App">
       <Logo />
       <Header/>    
@@ -17,7 +18,7 @@ function App() {
       <Donate />
       <Releases />
       <Footer />
-
+      
     </div>
   );
 }

@@ -1,7 +1,17 @@
 .Donate{
-
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    
     grid-area: donate; 
     
    
 
+}
+.Donate  > img{
+    
+padding-left: 10px;
+width: 600px;
+height: 185px;
+   
 }

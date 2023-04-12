@@ -1,7 +1,27 @@
+.mainContent {
+    display: flex;
+    grid-area: mainContent;
+    padding-top: 90px;
+    
+    
+    width: 100%;
 
+}
 
-.mainContent{
+.mainContent>img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+   margin-left: 5px;
+    padding: 5px;
+    transition: transform 100ms ease-in-out;
+     background: #3B71CA;
+     
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-    grid-area: mainContent; 
-   
+.mainContent > img:hover{
+
+    transform: scale(1.05);
 }
