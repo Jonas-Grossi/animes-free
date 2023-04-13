@@ -1,6 +1,9 @@
-.mainContent {
-    display: flex;
+.mainContent{
     grid-area: mainContent;
+}
+.mainContent .img {
+    display: flex;
+   
     padding-top: 90px;
     
     
@@ -8,7 +11,7 @@
 
 }
 
-.mainContent>img {
+.mainContent .img >img {
     max-width:200px;
     max-height:150px;
     width: auto;
@@ -17,11 +20,22 @@
     padding: 5px;
     transition: transform 100ms ease-in-out;
      background: #3B71CA;
-     
+     background-color: white;
+     display: inline-block;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.mainContent > img:hover{
+.mainContent .img > img:hover{
 
     transform: scale(1.05);
+    opacity: .5;
+
 }
+
+#card{
+
+    display: block;
+    padding-bottom: 100px;
+}
+
+
